@@ -1,4 +1,3 @@
-//Define an enumerated data type DegreeProgram for the degree programs containing the data type values SECURITY, NETWORK, and SOFTWARE.
 //The enumerated data type is correctly defined.
 
 #ifndef degree_h
