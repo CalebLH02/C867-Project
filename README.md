@@ -3,13 +3,17 @@ Project requirements:
 Your submission must be your original work. No more than a combined total of 30% of the submission and no more than a 10% match to any one individual source can be directly quoted or closely paraphrased from sources, even if cited correctly. The originality report that is provided when you submit your task can be used as a guide. 
 You must use the rubric to direct the creation of your submission because it provides detailed criteria that will be used to evaluate your work. Each requirement below may be evaluated by more than one rubric aspect. The rubric aspect titles may contain hyperlinks to relevant portions of the course.
 Tasks may not be submitted as cloud links, such as links to Google Docs, Google Slides, OneDrive, etc., unless specified in the task requirements. All other submissions must be file types that are uploaded and submitted as attachments (e.g., .docx, .pdf, .ppt).
+
 A.  Modify the “studentData Table” to include your personal information as the last item.
+
 B.  Create a C++ project in your integrated development environment (IDE) with the following files:
 •  degree.h
 •  student.h and student.cpp
 •  roster.h and roster.cpp
 •  main.cpp
+
  Note: There must be a total of six source code files.
+ 
 C.  Define an enumerated data type DegreeProgram for the degree programs containing the data type values SECURITY, NETWORK, and SOFTWARE.
 Note: This information should be included in the degree.h file.
 D.  For the Student class, do the following:
