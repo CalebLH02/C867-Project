@@ -1,4 +1,5 @@
-//student.h file with variables, getters, and setters for: student ID, first name, last name, email address, age, array of number of days to complete each course, and degree program
+//student.h file with variables, getters, and setters for: student ID, first name, last name, email address, age, array of number of days to complete each course, and degree program. constructors and destructor also created
+//The class Student is correctly created by correctly including each of the given variables.
 
 #ifndef student_h
 #define student_h
@@ -31,6 +32,10 @@ public:
     
     //destructor
     ~Student();
+    
+
+    //The accessor function in the Student class for each instance variable from part D1 is functional and is complete. All listed below.
+    //The mutator function in the Student class for each instance variable from part D1 is functional or is complete. All listed below. 
     
     //getter and setter for student ID
     string getStudID();
