@@ -5,14 +5,14 @@
 #include "degree.h"
 using namespace std;
 
-//The class Student is correctly created by correctly including each of the given variables.
+//The class Student is correctly created
 class Student
 {
 public:
-    //Sets the array to a constant size of 3 for the total of individual days to complete a course; ie the 30, 35, 40 under John Smith.
+    //Sets the array to a constant size of 3 for the total of days to complete a course; ie the 30, 35, 40 under John Smith.
     const static int daysToCompleteArray = 3;
 
-//The collection of variables for the class student.
+//Correct inclusion of given variables
 private:
     string studID;
     string firstName;
