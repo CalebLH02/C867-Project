@@ -16,7 +16,6 @@ Student::Student()
 }
 
 //The constructor function in the Student class accurately uses all of the input parameters from the data table.
-//constructor with args, assigning values for the strings and ints
 Student::Student(string studID, string firstName, string lastName, string emailAdd, int age, int days[], DegreeProgram degreeProgram)
 {
     this -> studID = studID;
@@ -99,7 +98,7 @@ int* Student::getDays()
 }
 void Student::setDays(int days[])
 {
-    for (int i = 0; i <daysToCompleteArray; i++) this -> days[i] = days[i];
+    for (int i = 0; i < daysToCompleteArray; i++) this -> days[i] = days[i];
 }
 
 
