@@ -1,5 +1,3 @@
-//student.cpp file with the implementation of variables, getters, and setters for: student ID, first name, last name, email address, age, array of number of days to complete each course, and degree program.
-
 #include "student.h"
 #include <iostream>
 #include <string>
@@ -17,6 +15,7 @@ Student::Student()
     this -> degreeProgram = DegreeProgram::SECURITY;
 }
 
+//The constructor function in the Student class accurately uses all of the input parameters from the data table.
 //constructor with args, assigning values for the strings and ints
 Student::Student(string studID, string firstName, string lastName, string emailAdd, int age, int days[], DegreeProgram degreeProgram)
 {
@@ -32,6 +31,7 @@ Student::Student(string studID, string firstName, string lastName, string emailA
 //destructor
 Student::~Student(){}
 
+//External access and changes to all instance variables of the Student class are done using accessor and mutator functions.
 //getter and setter for student ID
 string Student::getStudID()
 {
@@ -114,7 +114,9 @@ void Student::setDegreeProgram(DegreeProgram dp)
     this -> degreeProgram = dp;
 }
 
-//prints all the data within the student class
+
+
+//The print() function in the Student class accurately prints specific student data.
 void Student::print()
 {
     cout << this -> getStudID() << '\t';
